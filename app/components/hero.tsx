@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
         </motion.div>
 
         <motion.h1 variants={itemVariants} className="text-4xl md:text-6xl  text-white font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-secondary">
-          Hi, I'm [Your Name]
+          Hi, I'm SaiRa Saeed
         </motion.h1>
 
         <motion.p variants={itemVariants} className="text-xl md:text-2xl text-text_secondary mb-8 max-w-2xl mx-auto">
@@ -60,8 +60,8 @@ const Hero: React.FC = () => {
 
         <motion.div variants={itemVariants} className="flex justify-center space-x-6 mb-12">
             {/* Add links to your actual profiles */}
-            <motion.a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" variants={iconVariants} whileHover={{ scale: 1.2, color: '#E2E8F0' }} className="text-text_secondary text-3xl hover:text-text_primary transition-colors"><FaGithub /></motion.a>
-            <motion.a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" variants={iconVariants} whileHover={{ scale: 1.2, color: '#0A66C2' }} className="text-text_secondary text-3xl hover:text-primary transition-colors"><FaLinkedin /></motion.a>
+            <motion.a href="https://github.com/saira-gsoftconsulting" target="_blank" rel="noopener noreferrer" variants={iconVariants} whileHover={{ scale: 1.2, color: '#E2E8F0' }} className="text-text_secondary text-3xl hover:text-text_primary transition-colors"><FaGithub /></motion.a>
+            <motion.a href="https://www.linkedin.com/in/saira-saeed-724a18346/" target="_blank" rel="noopener noreferrer" variants={iconVariants} whileHover={{ scale: 1.2, color: '#0A66C2' }} className="text-text_secondary text-3xl hover:text-primary transition-colors"><FaLinkedin /></motion.a>
             <motion.a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" variants={iconVariants} whileHover={{ scale: 1.2, color: '#1DA1F2' }} className="text-text_secondary text-3xl hover:text-blue-400 transition-colors"><FaTwitter /></motion.a>
         </motion.div>
 

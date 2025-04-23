@@ -63,12 +63,12 @@ const Contact: React.FC = () => {
             <p className="text-text_secondary flex items-center gap-3">
               <FaEnvelope className="text-accent text-xl" />
               <a href="mailto:your.email@example.com" className="hover:text-primary transition-colors">
-                your.email@example.com
+                saira@gsoftconsulting.com
               </a>
             </p>
             <p className="text-text_secondary flex items-center gap-3">
               <FaMapMarkerAlt className="text-accent text-xl" />
-              <span>Your City, Country (Optional)</span>
+              <span>Johar Town phase II lahore, pakistan</span>
             </p>
             <p className="text-text_secondary mt-4">
                 Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.

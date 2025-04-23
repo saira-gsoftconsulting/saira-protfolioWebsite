@@ -23,7 +23,7 @@ const About: React.FC = () => {
             className="md:w-2/3 text-lg text-text_secondary space-y-4"
           >
             <p>
-              Hello! I'm [Your Name], a dedicated frontend developer with a love for crafting elegant and efficient user interfaces. My journey into web development started [mention origin story briefly - e.g., a college project, a personal website].
+              Hello! I'm Saira Saeed, a dedicated frontend developer with a love for crafting elegant and efficient user interfaces. My journey into web development started [mention origin story briefly - e.g., a college project, a personal website].
             </p>
             <p>
               I thrive on transforming complex problems into intuitive designs and bringing ideas to life in the browser. I'm proficient in modern web technologies like React, Next.js, TypeScript, and Tailwind CSS, always eager to learn and adapt to new tools and techniques.

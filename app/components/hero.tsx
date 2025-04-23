@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
           />
         </motion.div>
 
-        <motion.h1 variants={itemVariants} className="text-4xl md:text-6xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-secondary">
+        <motion.h1 variants={itemVariants} className="text-4xl md:text-6xl  text-white font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-secondary">
           Hi, I'm [Your Name]
         </motion.h1>
 

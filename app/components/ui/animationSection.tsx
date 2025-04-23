@@ -25,8 +25,8 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   const controls = useAnimation();
   const ref = useRef(null);
   const inView = useInView(ref, {
-    triggerOnce: true, // Only trigger once
-    threshold: 0.1,    // Trigger when 10% of the element is in view
+    once: true, // Only trigger once
+    margin: '-100px 0px -100px 0px', // Adjust as needed
   });
 
   useEffect(() => {
